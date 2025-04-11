@@ -1,0 +1,27 @@
+{
+  "name": "technical-test-node-typescript",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "prisma:generate": "npx prisma generate",
+    "test": "npx vitest"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.1",
+    "@prisma/client": "^6.6.0",
+    "hono": "^4.7.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/node": "^20.11.17",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "prisma": "^6.6.0",
+    "tsx": "^4.7.1",
+    "typescript-eslint": "^8.29.1",
+    "vitest": "^3.1.1"
+  }
+}
