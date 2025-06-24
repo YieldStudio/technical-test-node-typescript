@@ -9,7 +9,7 @@
 
 ```
 npm install
-npm prisma:generate
+npm run prisma:generate
 ```
 
 ## Run the server
